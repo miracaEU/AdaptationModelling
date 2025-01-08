@@ -1,4 +1,4 @@
-name: miraca
+name: adaptation_modelling_env
 channels:
   - conda-forge
 dependencies:
@@ -11,3 +11,10 @@ dependencies:
   - pytest
   - black
   - ruff
+  - openpyxl
+  - pip
+  - pip:
+    - pyarrow
+    - snkit
+
+
